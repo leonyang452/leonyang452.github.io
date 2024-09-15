@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-areas: 
+    'siamese britishShorthair calico'
+    'egyptian maineCoon persian'
+    'russianBlue americanShorthair toyger'
+    ;
+    margin-left: 75px;
+}
+
+.catPics{ 
+    height: 200px;
+    width: 200px;
+   /*padding-left: 50px;*/
+}
+
+/*div containing the cat image and description text*/
+#siamese{
+    grid-area: siamese;
+}
+
+/*div containing the cat image and description text*/
+#britishShorthair{
+    grid-area: britishShorthair;
+}
+
+/*div containing the cat image and description text*/
+#calico{
+    grid-area: calico;
+}
+
+/*div containing the cat image and description text*/
+#egyptian{
+    grid-area: egyptian;
+}
+
+/*div containing the cat image and description text*/
+#maineCoon{
+    grid-area: maineCoon;
+}
+
+/*div containing the cat image and description text*/
+#persian{
+    grid-area: persian;
+}
+
+/*div containing the cat image and description text*/
+#russianBlue{
+    grid-area: russianBlue;
+}
+
+/*div containing the cat image and description text*/
+#americanShorthair{
+    grid-area: americanShorthair;
+}
+
+/*div containing the cat image and description text*/
+#toyger{
+    grid-area: toyger;
+}
+
+/*div containing the cat image and description text*/
+.catConatiner{
+    padding: 75px;
+}
+
+.description{
+    margin: 0px;
+    padding-bottom: 30px;
+
+}
+
+.displayCat{
+    width: 25%;
+    height: 40%;
+    float: left;
+}
+
+/*flexbox*/
+header{
+    display: flex;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    background-color: rgb(49, 78, 132);
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+li{
+    padding: 16px;
+}
+
+.catPics:hover{
+    box-shadow: 10px 10px 8px 2px rgb(166, 161, 161);
+}
+
